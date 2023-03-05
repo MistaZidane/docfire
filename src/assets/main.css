@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
+*{
+    font-family: 'Baloo Da 2', cursive;
+
+}
+.my-btn{
+  width: 9rem;
+  border-radius: 0px;
+  background-color: rgb(30, 196, 118);
+  border-color: rgb(30, 196, 118);
+}
+.search{
+  border-radius: 0px;
+  line-height: 1px !important;
+}
+.search, .my-btn, .suggestion{
+-webkit-box-shadow: 0 4px 6px -6px black;
+   -moz-box-shadow: 0 4px 6px -6px black;
+        box-shadow: 0 4px 6px -6px black;
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+.inner-addon .icon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .icon { right: 0px;}
+.right-addon input { padding-right: 30px; }
+
+body{
+  background-color: rgb(236, 236, 236);
+}
